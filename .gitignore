@@ -20,9 +20,16 @@ composer.phar
 Thumbs.db
 desktop.ini
 
+# Tool-generated directories
+.qodo/
+node_modules/
+.sass-cache/
+
 # Temporary files
 *.tmp
 *.temp
+*OLD.php
+*NEW.php
 
 # Environment specific
 config_local.php
@@ -41,3 +48,8 @@ tmp/
 logs/
 error.log
 access.log
+
+# Backup files
+*.bak
+*.backup
+*~
