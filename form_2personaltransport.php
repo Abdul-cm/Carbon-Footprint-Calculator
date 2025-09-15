@@ -4,7 +4,6 @@
  * 
  * This form collects information about personal vehicle usage.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 

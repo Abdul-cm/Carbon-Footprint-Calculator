@@ -40,7 +40,7 @@ The calculator evaluates carbon emissions from:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Abdul-cm/Carbon-Footprint-Calculator.git
+   git clone https://github.com/[your-username]/Carbon-Footprint-Calculator.git
    cd Carbon-Footprint-Calculator
    ```
 
@@ -157,13 +157,7 @@ Update the multipliers in the calculation files to reflect current scientific da
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**Abdul-cm**
-- GitHub: [@Abdul-cm](https://github.com/Abdul-cm)
-- Email: samwra34@gmail.com
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Carbon emission factors based on UK government data
 - Bootstrap team for the UI framework
@@ -188,7 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email samwra34@gmail.com or create an issue on GitHub.
+For support, create an issue on GitHub.
 
 ---
 

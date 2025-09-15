@@ -4,7 +4,6 @@
  * 
  * This file contains the HTML header and navigation for all pages.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 
@@ -25,7 +24,6 @@ echo <<<_END
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Calculate your carbon footprint with our comprehensive carbon emissions calculator">
         <meta name="keywords" content="carbon footprint, calculator, emissions, environment, sustainability">
-        <meta name="author" content="Abdul-cm">
         
         <!-- External libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

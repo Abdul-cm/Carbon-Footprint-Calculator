@@ -5,7 +5,6 @@
  * This file contains database configuration settings.
  * Make sure to update these settings for your environment.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 

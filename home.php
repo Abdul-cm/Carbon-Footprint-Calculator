@@ -5,7 +5,6 @@
  * This is the main landing page for the Carbon Footprint Calculator.
  * It provides an introduction to the calculator and links to get started.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 

@@ -4,7 +4,6 @@
  * 
  * This form collects basic location information from the user.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 

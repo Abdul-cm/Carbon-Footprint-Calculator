@@ -5,7 +5,6 @@
  * This page processes the final form submission and displays
  * the calculated carbon footprint results with comparisons.
  * 
- * @author Abdul-cm
  * @version 2.0
  */
 
