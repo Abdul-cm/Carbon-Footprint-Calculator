@@ -1,0 +1,256 @@
+/**
+ * Carbon Footprint Calculator - Main Stylesheet
+ * 
+ * Custom styles for the carbon footprint calculator application.
+ * 
+ * @author Abdul-cm
+ * @version 2.0
+ */
+
+/* Global Styles */
+body {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Layout */
+#section {
+    padding: 2rem;
+}
+
+#header {
+    padding-top: 20px;
+}
+
+/* Navigation */
+.navbar-custom {
+    background-color: #2d5a27;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#navText {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#navText:hover {
+    color: #86C232 !important;
+}
+
+/* Color Scheme */
+#homeHeader {
+    color: #2d5a27;
+    font-weight: 600;
+}
+
+h1, #myModalLabel, #formHeader {
+    color: #2d5a27;
+    font-weight: 700;
+}
+
+/* Animations */
+#form {
+    animation: fadeInAnimation ease 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border: none;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transform: translateY(-1px);
+}
+
+/* Forms */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #2d5a27;
+}
+
+/* Progress Bar */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.progress-bar {
+    border-radius: 4px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+/* Results Specific */
+.display-2 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.breakdown-details {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.breakdown-details .fas {
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #section {
+        padding: 1rem;
+    }
+    
+    .display-2 {
+        font-size: 2.5rem;
+    }
+    
+    .btn-lg {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Utility Classes */
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+#distanceScreenshot {
+    display: block;
+    width: auto;
+}
+
+#flightQ {
+    padding-top: 2%;
+}
+
+#flightsTotalRed {
+    border-color: rgba(194, 28, 28, 0.705);
+}
+
+#flightsTotalYellow {
+    border-color: rgba(226, 226, 10, 0.747);
+}
+
+#flightsTotalGreen {
+    border-color: rgba(14, 175, 76, 0.788);
+}
+
+#flightsTotalBlue {
+    border-color: rgba(6, 80, 192, 0.788);
+}
+
+#flightsTotalPurple {
+    border-color: rgba(150, 19, 190, 0.795);
+}
+
+#mainResultsTitle, #breakdownText {
+    padding-top: 3%;
+}
+
+#mainResults {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#grandTotal {
+    color: #86C232;
+}
+
+#breakdownText {
+    padding-top: 3%;
+}

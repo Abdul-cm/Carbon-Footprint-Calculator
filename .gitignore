@@ -1,0 +1,43 @@
+# PHP
+*.log
+*.cache
+vendor/
+composer.phar
+
+# Database
+*.sql.backup
+*.sql.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment specific
+config_local.php
+.env
+.env.local
+
+# Uploads (if any)
+uploads/
+files/
+
+# Session files
+sessions/
+tmp/
+
+# Logs
+logs/
+error.log
+access.log
